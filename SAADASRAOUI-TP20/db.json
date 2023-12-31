@@ -1,0 +1,167 @@
+{
+  "formations": [
+    {
+      "id": 101,
+      "titre": "Développement Web Avancé",
+      "domaine": "Informatique",
+      "niveau": "Intermédiaire",
+      "description": "Approfondissement des concepts de développement web moderne avec React et Node.js.",
+      "disponible": true
+    },
+    {
+      "id": 102,
+      "titre": "Gestion de Projet Agile",
+      "domaine": "Management",
+      "niveau": "Débutant",
+      "description": "Introduction aux méthodologies agiles, principalement Scrum et Kanban.",
+      "disponible": false
+    },
+    {
+      "id": 103,
+      "titre": "Design Graphique pour le Web",
+      "domaine": "Design",
+      "niveau": "Intermédiaire",
+      "description": "Techniques de design graphique appliquées à la création de sites web attractifs.",
+      "disponible": true
+    },
+    {
+      "id": 104,
+      "titre": "Technicien en Électromécanique",
+      "domaine": "Électromécanique",
+      "niveau": "Intermédiaire",
+      "description": "Cette formation vise à former des techniciens spécialisés en électromécanique capables d'assurer la maintenance préventive et corrective des équipements industriels.",
+      "disponible": true
+    },
+    {
+      "id": 105,
+      "titre": "Secrétaire Bureautique",
+      "domaine": "Secrétariat et Bureautique",
+      "niveau": "Débutant",
+      "description": "La formation de Secrétaire Bureautique prépare les participants à assumer des tâches administratives au sein d'entreprises.",
+      "disponible": false
+    },
+    {
+      "id": 106,
+      "titre": "Cuisinier",
+      "domaine": "Restauration",
+      "niveau": "Intermédiaire",
+      "description": "Cette formation forme des cuisiniers spécialisés dans la préparation des plats culinaires. ",
+      "disponible": true
+    },
+    {
+      "id": 107,
+      "titre": "Infographiste Multimédia",
+      "domaine": "Arts Graphiques et Multimédia",
+      "niveau": "Débutant",
+      "description": "La formation d'Infographiste Multimédia prépare les étudiants à concevoir des éléments graphiques et multimédias.",
+      "disponible": false
+    },
+    {
+      "id": 108,
+      "titre": "Gestion Informatisée",
+      "domaine": "Informatique et Réseaux",
+      "niveau": "Intermédiaire",
+      "description": "La formation de Technicien en Gestion Informatisée dispensée par l'OFPPT vise à former des professionnels capables de gérer de manière informatisée les activités administratives et comptables d'une entreprise. ",
+      "disponible": true
+    },
+    {
+      "id": 109,
+      "titre": "Gestion Informatisée",
+      "domaine": "Informatique et Réseaux",
+      "niveau": "Intermédiaire",
+      "description": "La formation de Technicien en Gestion Informatisée dispensée par l'OFPPT vise à former des professionnels capables de gérer de manière informatisée les activités administratives et comptables d'une entreprise. ",
+      "disponible": true
+    }
+  ],
+  "utilisateurs": [
+    {
+      "id": 201,
+      "nom": "Alice Dupont",
+      "role": "Participant",
+      "formations_inscrites": [
+        101,
+        103
+      ]
+    },
+    {
+      "id": 202,
+      "nom": "Jean Martin",
+      "role": "Formateur",
+      "formations_enseignees": [
+        101
+      ]
+    },
+    {
+      "id": 203,
+      "nom": "Marie Curie",
+      "role": "Participant",
+      "formations_inscrites": [
+        102
+      ]
+    },
+    {
+      "nom": "saad",
+      "email": "dgdtdyc@gmail",
+      "idformation": "120",
+      "role": "Participant",
+      "formations_inscrites": 204
+    },
+    {
+      "nom": "mhb",
+      "email": "fchcfgh@gmail.com",
+      "idformation": "102",
+      "role": "Participant",
+      "formations_inscrites": 205
+    },
+    {
+      "nom": "yahya",
+      "email": "snxisji@gmail.com",
+      "idformation": "102",
+      "role": "Participant",
+      "formations_inscrites": 206
+    },
+    {
+      "nom": "sohaib",
+      "email": "fchcfgh@gmail.com",
+      "idformation": "102",
+      "role": "Participant",
+      "formations_inscrites": 207
+    },
+    {
+      "nom": "sohaib",
+      "email": "snxisji@gmail.com",
+      "idformation": "201",
+      "role": "Participant",
+      "formations_inscrites": 208
+    },
+    {
+      "nom": "aniss",
+      "email": "snxisji@gmail.com",
+      "idformation": "",
+      "role": "Participant",
+      "formations_inscrites": 209
+    },
+    {
+      "nom": "saad",
+      "email": "snxisji@gmail.com",
+      "idformation": "201",
+      "role": "Participant",
+      "formations_inscrites": 210
+    },
+    {
+      "nom": "ayoub",
+      "email": "ayoub@gmail.com",
+      "iformations_inscrites": "",
+      "role": "",
+      "idformation": "108",
+      "id": 204
+    },
+    {
+      "nom": "saad",
+      "email": "dgdtdyc@gmail",
+      "iformations_inscrites": "",
+      "role": "",
+      "id": 205
+    }
+  ]
+}
