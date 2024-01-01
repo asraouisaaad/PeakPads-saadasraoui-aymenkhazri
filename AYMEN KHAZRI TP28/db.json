@@ -1,0 +1,97 @@
+{
+  "formations": [
+    {
+      "id": 101,
+      "titre": "Développement Web Avancé",
+      "domaine": "Informatique",
+      "niveau": "Intermédiaire",
+      "description": "Approfondissement des concepts de développement web moderne avec React et Node.js.",
+      "disponible": true
+    },
+    {
+      "id": 102,
+      "titre": "Gestion de Projet Agile",
+      "domaine": "Management",
+      "niveau": "Débutant",
+      "description": "Introduction aux méthodologies agiles, principalement Scrum et Kanban.",
+      "disponible": false
+    },
+    {
+      "id": 103,
+      "titre": "Design Graphique pour le Web",
+      "domaine": "Design",
+      "niveau": "Intermédiaire",
+      "description": "Techniques de design graphique appliquées à la création de sites web attractifs.",
+      "disponible": true
+    }
+  ],
+  "utilisateurs": [
+    {
+      "id": 201,
+      "nom": "Alice Dupont",
+      "role": "Participant",
+      "formations_inscrites": [
+        101,
+        103
+      ]
+    },
+    {
+      "id": 202,
+      "nom": "Jean Martin",
+      "role": "Formateur",
+      "formations_enseignees": [
+        101
+      ]
+    },
+    {
+      "id": 203,
+      "nom": "Marie Curie",
+      "role": "Participant",
+      "formations_inscrites": [
+        102
+      ]
+    },
+    {
+      "nom": "saad",
+      "email": "dgdtdyc@gmail",
+      "idformation": "120",
+      "role": "",
+      "id": 204
+    },
+    {
+      "nom": "mhb",
+      "email": "fchcfgh@gmail.com",
+      "idformation": "102",
+      "role": "",
+      "id": 205
+    },
+    {
+      "nom": "yahya",
+      "email": "snxisji@gmail.com",
+      "idformation": "102",
+      "role": "",
+      "id": 206
+    },
+    {
+      "nom": "sohaib",
+      "email": "fchcfgh@gmail.com",
+      "idformation": "102",
+      "role": "",
+      "id": 207
+    },
+    {
+      "nom": "sohaib",
+      "email": "snxisji@gmail.com",
+      "idformation": "201",
+      "role": "",
+      "id": 208
+    },
+    {
+      "nom": "aniss",
+      "email": "snxisji@gmail.com",
+      "idformation": "",
+      "role": "",
+      "id": 209
+    }
+  ]
+}
